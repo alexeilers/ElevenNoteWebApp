@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ElevenNoteWebApp.Server.Models
 {
-    public class Category
+    public class CategoryEntity
     {
         [Key]
         public int Id { get; set; }

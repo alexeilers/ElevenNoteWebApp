@@ -14,7 +14,7 @@ namespace ElevenNoteWebApp.Server.Models
         [Required]
         public string Content { get; set; }
         public int CategoryId { get; set; }
-        public virtual Category Category { get; set; }
+        public virtual CategoryEntity Category { get; set; }
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
         public DateTimeOffset? ModifiedUtc { get; set; }

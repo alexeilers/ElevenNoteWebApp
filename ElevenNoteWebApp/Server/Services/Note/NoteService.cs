@@ -72,7 +72,7 @@ namespace ElevenNoteWebApp.Server.Models.Note.Services
         {
             var noteEntity = await _context
                 .Notes
-                .Include(nameof(Category))
+                .Include(nameof(CategoryEntity))
                 .FirstOrDefaultAsync(n => n.Id == noteId && n.OwnerId == _userId);
 
             if (noteEntity is null)
