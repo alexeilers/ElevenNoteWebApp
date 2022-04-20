@@ -18,7 +18,7 @@ namespace ElevenNoteWebApp.Server.Data
         {
         }
 
-        public DbSet<Note> Notes { get; set; }
+        public DbSet<NoteEntity> Notes { get; set; }
         public DbSet<Category> Categories { get; set; }
     }
 }
