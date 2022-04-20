@@ -22,6 +22,7 @@
     <None Remove="Services\" />
     <None Remove="Services\Note\" />
     <None Remove="Services\Category\" />
+    <None Remove="Microsoft.AspNetCore.Authorization" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
