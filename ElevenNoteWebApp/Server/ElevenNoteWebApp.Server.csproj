@@ -15,9 +15,9 @@
     <ProjectReference Include="..\Shared\ElevenNoteWebApp.Shared.csproj" />
   </ItemGroup>
 
-  <!--<ItemGroup>
+  <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
-  </ItemGroup>-->
+  </ItemGroup>
   <ItemGroup>
     <None Remove="Services\" />
     <None Remove="Services\Note\" />

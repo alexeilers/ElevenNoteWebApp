@@ -22,7 +22,6 @@
   <ItemGroup>
     <None Remove="Pages\Note\" />
     <None Remove="Pages\Category\" />
-    <None Remove="Microsoft.AspNetCore.Authorization" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Note\" />
